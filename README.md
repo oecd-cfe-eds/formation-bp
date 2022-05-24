@@ -2,7 +2,7 @@
 
 _Ateliers techniques - Indicateurs territoriaux pour un développement durable au Maroc_
 
-Ce dépôt contient la présentation et les codes utilisés lors de  
+Ce dépôt contient la présentation et les codes utilisés lors de
 la première session des ateliers techniques préparés par le Centre pour
 l'entrepreneuriat, les PME, les régions et les villes (CFE) de l'OCDE.
 
