@@ -23,3 +23,4 @@ ggplot(tl2_ordered) +
     subtitle = "with respect to the average of the same period in the previous four years"
     ) +
   theme(axis.title = element_blank())
+ggsave("figures/tl2.png")
