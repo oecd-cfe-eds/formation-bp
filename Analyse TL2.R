@@ -10,10 +10,11 @@ tl2_ordered <- tl2 |>
   ungroup() |>
   mutate(country_code = fct_reorder(country_code, max_deaths_growth))
 
+# Un commentaire
 ggplot(tl2_ordered) +
   geom_point(
     aes(deaths_growth_1619, country_code),
-    color = "red",
+    color = "pink",
     alpha = .5) +
   scale_x_continuous(labels = scales::number_format(suffix = " %")) +
   labs(
