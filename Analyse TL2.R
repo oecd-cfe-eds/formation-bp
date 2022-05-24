@@ -11,7 +11,10 @@ tl2_ordered <- tl2 |>
   mutate(country_code = fct_reorder(country_code, max_deaths_growth))
 
 ggplot(tl2_ordered) +
-  geom_point(aes(deaths_growth_1619, country_code), alpha = .5) +
+  geom_point(
+    aes(deaths_growth_1619, country_code),
+    color = "red",
+    alpha = .5) +
   scale_x_continuous(labels = scales::number_format(suffix = " %")) +
   labs(
     title = "Increase in deaths between January and August 2020",
