@@ -10,7 +10,7 @@ tl2_ordered <- tl2 |>
   ungroup() |>
   mutate(country_code = fct_reorder(country_code, max_deaths_growth))
 
-# Un commentaire
+# Un commentaire, modifié
 ggplot(tl2_ordered) +
   geom_point(
     aes(deaths_growth_1619, country_code),

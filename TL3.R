@@ -3,6 +3,7 @@ library(tidyverse)
 tl3 <- read_csv("https://raw.githubusercontent.com/oecd-cfe-eds/ccsa-excess-mortality/master/excess-mortality_jan-aug.csv") |>
   filter(tl == 3)
 
+# Un commentaire
 tl3_ordered <- tl3 |>
   filter(!is.na(deaths_growth_1619), !is.na(typology)) |>
   group_by(country_code) |>
